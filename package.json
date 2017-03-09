@@ -2,7 +2,8 @@
   "name": "test",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "lite": "lite-server"
   },
   "dependencies": {
     "@angular/common": "2.4.3",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@ngtools/webpack": "1.2.3",
+    "lite-server": "^2.3.0",
     "live-server": "^1.1.0",
     "node-sass": "^3.7.0",
     "performance-now": "^0.2.0",
